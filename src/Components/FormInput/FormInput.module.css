@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 832px;
     padding-top: 275px;
 }
 .inputText {
@@ -97,3 +96,19 @@
 .monthYearInput {
     display: flex;
 }
+
+@media only screen and (max-width: 375px) {
+    .inputContent {
+        padding: 98px 24px 0px 24px;
+    }
+    .inputText {
+        width: 327px;
+        height: 45px;
+    }
+    .inputNumCVC {
+        width: 164px;
+    }
+    .expDate {
+        width: 152px;
+    }
+  }

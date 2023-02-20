@@ -10,7 +10,7 @@ interface Props {
 const Card: FC<Props> = ({creditCardNum, cardholderName, monthDate, yearDate, cvc}) => {
 
     return(
-        <div>
+        <div className={styles.pageCardContent}>
             <div className={styles.desktopBackground}></div>
             <div className={styles.cardsContent}>
                 <div className={styles.cardFront}>

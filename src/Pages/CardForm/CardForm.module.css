@@ -1,6 +1,15 @@
 .pageContent {
     width: 1440px;
-
+    display: flex;
+    justify-content: space-between;
 }
+
+@media only screen and (max-width: 375px) {
+    .pageContent {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
 
 

@@ -4,7 +4,6 @@
     background-size: cover;
     height: 100vh;
     width: 483px;
-    position: absolute;
 }
 .cardsContent {
     width: 541px;
@@ -76,3 +75,53 @@
     letter-spacing: 2px;
     width:100px;
 }
+
+@media only screen and (max-width: 375px) {
+    .desktopBackground {
+        background-image: url('../../../public/bg-main-mobile.png');
+        height: 240px;
+        width: 100%;
+    }
+    .cardBack {
+        width: 286px;
+        height: 157px;
+        z-index: 1;
+        top: 38px;
+        left: 73px;
+    }
+    .cardFront {
+        width: 286px;
+        height: 157px;
+        z-index: 2;
+        left: 16px;
+        top: 126px;
+    }
+    .cardLogo {
+        width: 54px;
+        height: 30px;
+        margin-bottom: 37px;
+    }
+    .cardNumber {
+        font-size: 18px;
+        line-height: 22.97px;
+        letter-spacing: 2.2px;
+        margin-bottom: 17px;
+    }
+    .nameDate {
+        font-size: 9px;
+        letter-spacing: 1.29px;
+        line-height: 11.48px;
+    }
+    .cvcNumber {
+        left: 227px;
+        top: 73px;
+        font-size: 9px;
+        letter-spacing: 1.29px;
+        line-height: 11.48px;
+    }
+    .cardsContent {
+        width: 0;
+        height: 0;
+        position: initial;
+    }
+  }
