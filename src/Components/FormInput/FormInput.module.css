@@ -1,0 +1,99 @@
+.inputContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 832px;
+    padding-top: 275px;
+}
+.inputText {
+    width: 381px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding-left: 16px;
+}
+.wrongInputText {
+    width: 381px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: red;
+    padding-left: 16px;
+}
+
+.inputNum {
+    width: 69px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding-left: 16px;
+}
+.wrongInputNum {
+    width: 69px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-color: red;
+    padding-left: 16px;
+}
+.inputNumCVC {
+    width: 191px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 16px;
+    margin-bottom: 26px;
+}
+.wrongInputNumCVC {
+    width: 191px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: red;
+    padding-left: 16px;
+}
+
+.expDate {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+.cvc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.inputNumsContent {
+    display: flex;
+}
+.labels {
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+.wrongFormat {
+    color: red;
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    line-height: 15.31px;
+    margin-bottom: 26px;
+    margin-top: 8px;
+}
+.monthYearInput {
+    display: flex;
+}

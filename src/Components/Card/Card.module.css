@@ -1,0 +1,78 @@
+.desktopBackground {
+    background-image: url('../../../public/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 483px;
+    position: absolute;
+}
+.cardsContent {
+    width: 541px;
+    height: 527px;
+    position: absolute;
+    top: 187px;
+    left: 164px;
+}
+.cardFront {
+    background-image: url('../../../public/bg-card-front.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 447px;
+    height: 245px;
+    position: absolute;
+    padding-left: 32px;
+    padding-top: 28px;
+}
+.cardNumber {
+    margin-bottom: 25.5px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 3.42px;
+    line-height: 35.73px;
+}
+.nameDate {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 31.86px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+}
+.cardBack{
+    background-image: url('../../../public/bg-card-back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 447px;
+    height: 245px;
+    position: absolute;
+    top: 269px;
+    left: 122px;
+}
+.dateContent {
+    display: flex;
+}
+.cardLogo {
+    background-image: url('../../../public/card-logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 47px;
+    margin-bottom: 64px;
+}
+.cvcNumber {
+    position: relative;
+    left: 355px;
+    top: 112px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.88px;
+    letter-spacing: 2px;
+    width:100px;
+}

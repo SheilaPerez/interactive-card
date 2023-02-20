@@ -1,0 +1,12 @@
+.confirmBtn {
+    width: 381px;
+    height: 53px;
+    background-color: #21092F;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 22.97px;
+    cursor: pointer;
+}
